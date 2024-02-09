@@ -21,7 +21,7 @@ In the above spark-submit command, the packages and conf details are required wh
 
 
 Files Information:
-database.csv - Input Dataset.
-earthquake.py - PySpark Application File
-output.csv - Final result CSV after all necessary transformations and filtering.
-README - README file which contains general instructions about the code and how to run it.
+1) database.csv - Input Dataset.
+2) earthquake.py - PySpark Application File
+3) output.csv - Final result CSV after all necessary transformations and filtering.
+4) README - README file which contains general instructions about the code and how to run it.
