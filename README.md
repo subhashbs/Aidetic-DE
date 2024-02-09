@@ -9,6 +9,11 @@ import geopy.distance 								               // Used while calculating distance
 from delta.tables import * 							            // Used while working with spark delta-lake tables.
 
 
+
+install the libraries with pip install command.
+For Example, pip install geopy
+
+
 """Run below command to execute the script."""
 
 spark-submit \
