@@ -1,11 +1,12 @@
 
 #Following modules have been used to run the script earthquake.py
 
-from pyspark.sql.functions import *  				      // Used for running SQL Scripts inside pyspark
-from datetime import datetime 						       // Used for working with DATE/TIME.
-from pyspark.sql import SparkSession 			    	// Used to create sparksession
-import geopy.distance 								         // Used while calculating distance
-from delta.tables import * 							      // Used while working with spark delta-lake tables.
+
+from pyspark.sql.functions import *  				            // Used for running SQL Scripts inside pyspark
+from datetime import datetime 						             // Used for working with DATE/TIME.
+from pyspark.sql import SparkSession 			    	      // Used to create sparksession
+import geopy.distance 								               // Used while calculating distance
+from delta.tables import * 							            // Used while working with spark delta-lake tables.
 
 
 """Run below command to execute the script."""
